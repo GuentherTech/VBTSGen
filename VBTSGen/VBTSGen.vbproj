@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>VBTSGen</RootNamespace>
+        <TargetFramework>net8.0</TargetFramework>
+        <PublishAot>true</PublishAot>
+        <TrimmerSingleWarn>false</TrimmerSingleWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.CodeAnalysis.VisualBasic" Version="4.8.0" />
+    </ItemGroup>
+
+</Project>
